@@ -1,0 +1,94 @@
+{
+    "RU": {
+        "commands": {
+            "help": {
+                "name": "help",
+                "description": "Подсказка",
+                "options": {}
+            },
+            "price": {
+                "name": "price",
+                "description": "Просмотр цен на аукционе",
+                "options": {
+                    "item": {
+                        "option_name": "item",
+                        "option_description": "Введите имя предмета (Используйте 'Tab' для просмотра доступных фильтров)"
+                    },
+                    "quality": {
+                        "option_name": "quality",
+                        "option_description": "Выберите качество предмета",
+                        "options": {
+                            "0": "Обычный",
+                            "1": "Необычный",
+                            "2": "Особый",
+                            "3": "Редкий",
+                            "4": "Исключительный",
+                            "5": "Легендарный",
+                            "6": "Уникальный"
+                        }
+                    },
+                    "upgrade": {
+                        "option_name": "upgrade",
+                        "option_description": "Выберите уровень модификации",
+                        "options": {
+                            "0": "+5",
+                            "1": "+4",
+                            "2": "+3",
+                            "3": "+2",
+                            "4": "+1"
+                        }
+                    }
+                }
+            },
+            "player": {
+                "name": "player",
+                "description": "Просмотр профиля игрока",
+                "options": {
+                    "name": {
+                        "option_name": "name",
+                        "option_description": "Введите имя игрока (Используйте 'Tab' для сравнения с другим игроком)"
+                    },
+                    "compare":  {
+                        "option_name": "compare",
+                        "option_description": "Введите имя второго игрока, для сравнения"
+                    }
+                }
+
+            },
+            "optics": {
+                "name": "optics",
+                "description": "Просмотр всех прицельных сеток (Только EU версия)",
+                "options": {}
+
+            },
+            "map": {
+                "name": "map",
+                "description": "Интерактивная карта Stalcraft'а",
+                "options": {}
+
+            },
+            "calc": {
+                "name": "calc",
+                "description": "Калькулятор аретфактов/DPI, и приведёнки в Stalcraft",
+                "options": {}
+
+            },
+            "emission:": {
+                "name": "emission",
+                "description":  "Настройка отображения времени последнего выброса, и уведомлений о выбросах по ролям",
+                "subcommands": {
+                   "setup": {
+                        "subcommand_name": "setup",
+                        "subcommand_description": "Настройка отображения времени последнего выброса, и уведомлений о выбросах по ролям",
+                        "options": {
+                            "channel": {
+                                "option_name": "channel",
+                                "option_description": "Выберите канал для отображения времени последнего выброса"
+                            }
+                        }
+                   } 
+                }
+            }
+        }
+    }
+}

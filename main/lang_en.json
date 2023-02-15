@@ -1,0 +1,94 @@
+{
+    "EN": {
+        "commands": {
+            "help": {
+                "name": "help",
+                "description": "Opens the help menu.",
+                "options": {}
+            },
+            "price": {
+                "name": "price",
+                "description": "Check prices from the Auction House.",
+                "options": {
+                    "item": {
+                        "option_name": "item",
+                        "option_description": "Enter the name of the item. (Use the 'Tab' button, to see the filtering options.)"
+                    },
+                    "quality": {
+                        "option_name": "quality",
+                        "option_description": "Select an available quality.",
+                        "options": {
+                            "0": "COMMON",
+                            "1": "UNCOMMON",
+                            "2": "SPECIAL",
+                            "3": "RARE",
+                            "4": "EXCLUSIVE",
+                            "5": "LEGENDARY",
+                            "6": "UNIQUE"
+                        }
+                    },
+                    "upgrade": {
+                        "option_name": "upgrade",
+                        "option_description": "Select an upgrade level.",
+                        "options": {
+                            "0": "+5",
+                            "1": "+4",
+                            "2": "+3",
+                            "3": "+2",
+                            "4": "+1"
+                        }
+                    }
+                }
+            },
+            "player": {
+                "name": "player",
+                "description": "Check the player's profile.",
+                "options": {
+                    "name": {
+                        "option_name": "name",
+                        "option_description": "Enter the player's name. (Use the 'TAB' button to compare with another profile.)"
+                    },
+                    "compare":  {
+                        "option_name": "compare",
+                        "option_description": "Enter the name of the second player to compare."
+                    }
+                }
+
+            },
+            "optics": {
+                "name": "optics",
+                "description": "Preview of each optic available in the game. (EU VERSION.)",
+                "options": {}
+
+            },
+            "map": {
+                "name": "map",
+                "description": "An Interactive Map created for Stalcraft.",
+                "options": {}
+
+            },
+            "calc": {
+                "name": "calc",
+                "description": "Artifact/DPI/HP calculator for Stalcraft.",
+                "options": {}
+
+            },
+            "emission:": {
+                "name": "emission",
+                "description":  "Automatically configure the Emission Timer and Notification Role.",
+                "subcommands": {
+                   "setup": {
+                        "subcommand_name": "setup",
+                        "subcommand_description": "Create the timer and role.",
+                        "options": {
+                            "channel": {
+                                "option_name": "channel",
+                                "option_description": "Select your channel for the Emission Timer."
+                            }
+                        }
+                   } 
+                }
+            }
+        }
+    }
+}

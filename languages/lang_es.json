@@ -1,0 +1,94 @@
+{
+    "ES": {
+        "commands": {
+            "help": {
+                "name": "ayuda",
+                "description": "Abre el menú de ayuda",
+                "options": {}
+            },
+            "price": {
+                "name": "precio",
+                "description": "Comprueba los precios de la Casa de Subastas",
+                "options": {
+                    "item": {
+                        "option_name": "objeto",
+                        "option_description": "Introduce el nombre del objeto. (Utiliza el botón 'Tab', para ver opciones de filtros.)"
+                    },
+                    "quality": {
+                        "option_name": "calidad",
+                        "option_description": "Selecciona una calidad disponible.",
+                        "options": {
+                            "0": "COMÚN",
+                            "1": "POCO COMÚN",
+                            "2": "ESPECIAL",
+                            "3": "RARO",
+                            "4": "EXCLUSIVO",
+                            "5": "LEGENDARIO",
+                            "6": "ÚNICO"
+                        }
+                    },
+                    "upgrade": {
+                        "option_name": "mejora",
+                        "option_description": "Selecciona un nivel de mejora.",
+                        "options": {
+                            "0": "+5",
+                            "1": "+4",
+                            "2": "+3",
+                            "3": "+2",
+                            "4": "+1"
+                        }
+                    }
+                }
+            },
+            "player": {
+                "name": "jugador",
+                "description": "Comprueba el perfil del jugador.",
+                "options": {
+                    "name": {
+                        "option_name": "nombre",
+                        "option_description": "Introduce el nombre del jugador. (Utiliza el botón 'TAB' para compararlo con otro perfil.)"
+                    },
+                    "compare":  {
+                        "option_name": "comparar",
+                        "option_description": "Introduce el nombre del segundo jugador para comparar."
+                    }
+                }
+
+            },
+            "optics": {
+                "name": "miras",
+                "description": "Previsualización de las miras dentro del juego. (VERSIÓN EU.)",
+                "options": {}
+
+            },
+            "map": {
+                "name": "mapa",
+                "description": "Un mapa interativo creado para Stalcraft",
+                "options": {}
+
+            },
+            "calc": {
+                "name": "calculadora",
+                "description": "Calculadora de Artefactos/DPI/HP para Stalcraft",
+                "options": {}
+
+            },
+            "emission:": {
+                "name": "emision",
+                "description":  "Configura automáticamente el temporizador de emisión y el rol de notificación.",
+                "subcommands": {
+                   "setup": {
+                        "subcommand_name": "configuracion",
+                        "subcommand_description": "Crea el temporizador y rol.",
+                        "options": {
+                            "channel": {
+                                "option_name": "canal",
+                                "option_description": "Selecciona el canal para el temporizador de emisión."
+                            }
+                        }
+                   } 
+                }
+            }
+        }
+    }
+}

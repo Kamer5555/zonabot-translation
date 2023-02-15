@@ -1,0 +1,94 @@
+{
+    "TR": {
+        "commands": {
+            "help": {
+                "name": "Yardim",
+                "description": "Yardim menusunu ac.",
+                "options": {}
+            },
+            "price": {
+                "name": "fiyat",
+                "description": "Acik arttirma kismindan fiyatlari kontrol edin.",
+                "options": {
+                    "item": {
+                        "option_name": "Esya",
+                        "option_description": "Esya ismini giriniz. (''tab'' tusunu kullanarak, filtreleme opsiyonlarini gorebilirsiniz.)"
+                    },
+                    "quality": {
+                        "option_name": "kalite",
+                        "option_description": "Mevcut kaliteyi secin.",
+                        "options": {
+                            "0": "Yaygin",
+                            "1": "Nadir",
+                            "2": "Ozel",
+                            "3": "Essiz",
+                            "4": "Cok Ozel",
+                            "5": "Efsanevi",
+                            "6": "Benzersiz"
+                        }
+                    },
+                    "upgrade": {
+                        "option_name": "yukseltme",
+                        "option_description": "Yukseltme seviyesi secin.",
+                        "options": {
+                            "0": "+5",
+                            "1": "+4",
+                            "2": "+3",
+                            "3": "+2",
+                            "4": "+1"
+                        }
+                    }
+                }
+            },
+            "player": {
+                "name": "oyuncu",
+                "description": "Oyuncu profilini kontrol edin.",
+                "options": {
+                    "name": {
+                        "option_name": "isim",
+                        "option_description": "Oyuncu ismini giriniz. ('TAB' tusunu kullanarak baska bir profille karsilastirabilirsiniz.)"
+                    },
+                    "compare":  {
+                        "option_name": "karsilastirma",
+                        "option_description": "Karsilastirilacak ikinci oyuncunun adini girin."
+                    }
+                }
+
+            },
+            "optics": {
+                "name": "optik",
+                "description": "Oyunda mevcut olan her optiklerin onizlemesi. (EU VERSION.)",
+                "options": {}
+
+            },
+            "map": {
+                "name": "harita",
+                "description": "Starcraft icin olusturulmus etkilesimli bir harita.",
+                "options": {}
+
+            },
+            "calc": {
+                "name": "hesapmakinesi",
+                "description": "StalCraft icin Artifact/DPI/HP hesaplayici.",
+                "options": {}
+
+            },
+            "emission:": {
+                "name": "emisyon",
+                "description":  "Emisyon zamanlayicisini ve bildirimini yapilandirin.",
+                "subcommands": {
+                   "setup": {
+                        "subcommand_name": "kurulum",
+                        "subcommand_description": "Zamanlayiciyi ve rolu olusturunuz.",
+                        "options": {
+                            "channel": {
+                                "option_name": "kanal",
+                                "option_description": "Emisyon zamanlayiciniz icin kanal seciniz."
+                            }
+                        }
+                   } 
+                }
+            }
+        }
+    }
+}
